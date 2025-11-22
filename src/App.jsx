@@ -6,7 +6,6 @@ import Footer from "./common/Footer";
 import Manga from "./Pages/Manga";
 import Mangadetail from "./Pages/Mangadetail";
 import Searchresult from "./Pages/searchResult";
-import Listing from "./Pages/Listing";
 import Login from "./Pages/Login";
 import Blog from "./Pages/Blog";
 import Blogdetail from "./Pages/Blogdetails";
@@ -20,7 +19,6 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/listing" element={<Listing />} />
           <Route path="/manga" element={<Manga />} />
           <Route path="/mangadetails" element={<Mangadetail />} />
           <Route path="/searchResult" element={<Searchresult />} />
