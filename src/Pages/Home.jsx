@@ -29,7 +29,7 @@ function Home() {
       let data = await (
         await fetch("https://api.jikan.moe/v4/genres/anime")
       ).json();
-      setCategorie(data.data.slice(0, 8));
+      setCategorie(data["data"]);
     } catch (e) {
       console.log(e);
     }
